@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-items: space-between;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#tasks {
+  list-style: circle;
+  padding: 0;
+  margin-top: 40px;
+  max-width: 500px;
+  margin: 40px auto 0;
+}
+
+#tasks li {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f4f4;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
